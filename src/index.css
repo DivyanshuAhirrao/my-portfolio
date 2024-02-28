@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blinker{
+    animation: disco 1s infinite;
+}
+
+.laptop{
+    height: 350px;
+    width: 450px;
+    background-image: url('./components/media/laptop.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    padding: 0 30px;
+}
+
+/* 
+.App{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: green;
+} */
+
+
+@keyframes disco {
+    50%{
+        color: rgb(59, 45, 91);
+    }
+}
